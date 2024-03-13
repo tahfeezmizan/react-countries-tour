@@ -1,0 +1,10 @@
+.countries{
+    border: 2px solid sienna;
+    padding: 20px;
+}
+
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
