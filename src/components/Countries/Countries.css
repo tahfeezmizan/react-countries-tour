@@ -8,3 +8,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+
+.visited{
+    background-color: rgb(94, 94, 94);
+}
