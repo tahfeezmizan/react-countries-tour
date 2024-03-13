@@ -12,3 +12,7 @@
 .visited{
     background-color: rgb(94, 94, 94);
 }
+
+.flags-container img{
+    width: 100px;
+}
