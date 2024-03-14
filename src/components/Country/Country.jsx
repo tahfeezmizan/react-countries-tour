@@ -18,12 +18,11 @@ const Country = ({ country, handleVisitedCountry, handleVisitedFlags }) => {
             <p>Population: {population}</p>
             <p>Area: {area}</p>
             <p>Code: {cca3}</p>
-            <button onClick={() => handleVisitedCountry(country)}>Mark Visted</button> <br />
-            <button onClick={() => handleVisitedFlags(country.flags.png)}>Add Flag</button> <br />
+            <button onClick={() => handleVisitedCountry(country)}>Mark Visted</button>
+            <button onClick={() => handleVisitedFlags(country.flags.png)}>Add Flag</button>
             <button onClick={handleVisited}>{visited ? 'Visited' : 'Going'}</button>
             {visited ? 'I have visited this country' : 'I want to Visite'}
 
-            <br />
             <CountryDetail>
                 country= {country};
                 handleVisitedCountry={handleVisitedCountry}
